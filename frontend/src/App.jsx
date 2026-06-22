@@ -15,11 +15,15 @@ function App() {
           <img src={reactLogo} className="framework" alt="React logo" />
           <img src={viteLogo} className="vite" alt="Vite logo" />
         </div>
-        <div>
-          <h1>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+        <div className="Container">
+          <fomr> 
+            <h1>Cadastro-Se</h1>
+            <input name="name" placeholder="Digite seu nome" />
+            <input name="email" placeholder="Digite seu email" />
+            <input name="password" placeholder="Digite sua senha" />
+            <button type="submit">Enviar</button>
+          </fomr>
+          
         </div>
         <button
           type="button"
