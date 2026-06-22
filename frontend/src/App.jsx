@@ -19,6 +19,7 @@ function App() {
           <fomr> 
             <h1>Cadastro-Se</h1>
             <input name="name" placeholder="Digite seu nome" />
+            <input name="idade" placeholder="Digite sua idade" />
             <input name="email" placeholder="Digite seu email" />
             <input name="password" placeholder="Digite sua senha" />
             <button type="submit">Enviar</button>
